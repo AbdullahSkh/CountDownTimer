@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./Dubai.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -5rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.countdown-elements{
+    text-align: center;
+}
+
+.countdown-elements span{
+    font-size: 1.5rem;
+}
+
+.box{
+
+    border-radius: 25px;
+    position: absolute;
+    max-width: 800px;
+    padding: 125px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background: rgba(196, 177, 159, .3);
+    overflow: hidden;
+    color: #000;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.name-display{
+    position: absolute;
+    font-weight: bolder;
+    right: 20px;
+    bottom: 30px;
+
+}
